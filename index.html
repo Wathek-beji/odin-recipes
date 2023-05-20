@@ -1,42 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Recipes from North Africa</title>
-  <!--This is probably a dumb way to select stuff, I just used it to practice selectors-->
-  <style>
-    body h1#header,
-    .image.north-africa,
-    .image.tunisian-flag,
-    .image.djappa,
-    h3,
-    p{
-      text-align: center;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
 </head>
+
 <body>
   <h1 id="header">Recipes from North Africa!</h1>
-  <div class="image north-africa">
-    <img src="./images/NorthAfrica.gif" alt="A map of of the north african region" style="width: 800px; height:auto">
+
+  <div class="image">
+    <img class="north-africa" src="./images/NorthAfrica.png" alt="A map of of the north african region">
   </div>
-  <h3>The most famous dishes dishes from the North African region. Delicious stuff!</h3>
-  <p>I'll admit all of these come from my home country Tunisia. oops &#128556; &#128517;</p>
-  <div class="image tunisian-flag">
-    <img src="./images/TunisiaFlagIllo.jpg" alt="The Tunisian flag" style="width: 200px; height:auto">
+
+  <div class= "description">
+    <h3>The most famous dishes dishes from the North African region. Delicious stuff!</h3>
+    <p>I'll admit all of these come from my home country Tunisia. oops &#128556; &#128517;</p>
   </div>
+
+  <div class="image">
+    <img class="tunisian-flag" src="./images/TunisiaFlagIllo.jpg" alt="The Tunisian flag">
+  </div>
+
   <p>look at that beauty! Now back to the tasty stuff &#129316;.</p>
-  <div class="image djappa">
-    <img src="images/djappa.gif" alt="My friend Djappa with a crazy face" style="width: 150px; height:auto">
+
+  <div class="image">
+    <img class="djappa" src="images/djappa.gif" alt="My friend Djappa with a crazy face">
   </div>
+
   <p>Djappa approves &#128077;</p>
+
+  <div class="navigation">
   <ul>
     <li><a href="./recipes/shakshuka.html">Shakshuka</a></li>
     <li><a href="./recipes/couscous.html">Couscous</a></li>
     <li><a href="./recipes/lablebi.html">Lablebi</a></li>
   </ul>
   <a href="#header">Return to the top</a>
+  </div>
+  
 </body>
 </html>

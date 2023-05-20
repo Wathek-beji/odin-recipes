@@ -1,0 +1,80 @@
+@font-face {
+  font-family: sabana;
+  src: url(fonts/sabana-arabic-font/Sabana.ttf);
+}
+
+/* Page Background */
+
+body {
+  background-image: linear-gradient(180deg, hsl(14, 64%, 28%) 0%, hsl(30, 85%, 65%) 74%);
+}
+
+/* Page Title Rules */
+
+#header{
+  color: hsl(51, 100%, 50%);
+  font-family: sabana, serif;
+  font-size: 5vw;
+  text-align: center;
+}
+
+/* Description Rules */
+
+.description {
+  text-align: center;
+}
+
+/* Ingredient Rules */
+
+.ingredients {
+  text-align: center;
+  list-style-position: inside;
+}
+
+/* Instruction Rules */
+
+.instructions {
+  text-align: center;
+  list-style-position: inside;
+}
+
+/* Navigation Rules */
+
+.navigation {
+  text-align: center;
+  list-style-position: inside;
+}
+
+/* Image Rules */
+
+.image {
+  text-align: center;
+}
+
+.north-africa {
+  width: 800px;
+  height: auto;
+}
+
+.tunisian-flag {
+  width: 200px;
+  height: auto;
+}
+
+.djappa {
+  width: 150px;
+  height: auto;
+}
+
+.lablebi,
+.shakshuka,
+.couscous {
+  width: 600px;
+  height: auto;
+}
+
+/* Funny sentences */
+
+p {
+  text-align: center;
+}
