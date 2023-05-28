@@ -41,14 +41,44 @@ body {
 /* Navigation Rules */
 
 .navigation {
+  width: 400px;
+  margin: 0 auto;
   text-align: center;
-  list-style-position: inside;
+
+}
+
+ul {
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+}
+
+.btn {
+  display: inline-block;
+  padding: 15px 20px;
+  margin: 5px ;
+  text-align: center;
+  background-image: linear-gradient(180deg, hsl(14, 64%, 28%) 0%, hsl(40, 85%, 65%) 74%);
+  border-radius: 10px;
+}
+
+.lnk {
+  text-decoration: none;
+  color:gold;
+  font-size: 25px;
+  font-family: sabana;
+}
+
+
+.btn-container:hover {
+  background-image: linear-gradient(90deg, hsl(14, 64%, 28%) 0%, hsl(40, 85%, 65%) 74%);
 }
 
 /* Image Rules */
 
 .image {
   text-align: center;
+
 }
 
 .north-africa {
